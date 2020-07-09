@@ -1,0 +1,63 @@
+<style>
+    /* label{
+        width: 14% !important;
+    } */
+
+    label#tester {
+        width: 14% !important;
+    }
+
+    label#model {
+        width: 14% !important;
+    }
+
+    label#station {
+        width: 14% !important;
+    }
+
+    input#node-input-tester {
+        width: 50% !important;
+    }
+
+    input#node-input-model {
+        width: 50% !important;
+    }
+
+    input#node-input-station {
+        width: 50% !important;
+    }
+</style>
+
+<script type="text/javascript">
+    RED.nodes.registerType('display_config', {
+        category: 'JIG Configuration',
+        color: '#87CEEB',
+        defaults: {
+            tester:{ value: "" },
+            model: { value: "" },
+            station: { value: ""},
+            
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "Display_Config.svg",
+        label: "Display Config",
+        paletteLabel: "Display Config",
+
+    });
+</script>
+
+<script type="text/html" data-template-name="display_config">
+    <div class="form-row node-input-tester">
+        <label id="tester" for="node-input-tester"><i class="fa fa-laptop"></i> Tester </label>
+        <input type="text" id="node-input-tester">
+    </div>
+    <div class="form-row node-input-model">
+        <label id="model" for="node-input-model"><i class="fa fa-list-alt"></i> Model </label>
+        <input type="text" id="node-input-model">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="display_config">
+    <p>JIG Configuration </p>
+</script>

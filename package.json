@@ -1,0 +1,25 @@
+{
+  "name": "qm-hub-JIG-configuration-display-config",
+  "version": "1.0.0",
+  "description": "jig configuration display-config module - Node-Red",
+  "main": "display_config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulesQuimera/qm-hub-JIG-configuration-display-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modulesQuimera/qm-hub-JIG-configuration-display-config/issues"
+  },
+  "homepage": "https://github.com/modulesQuimera/qm-hub-JIG-configuration-display-config#readme",
+  "node-red": {
+    "nodes": {
+        "display_config": "display_config.js"
+    }
+}
+}
