@@ -1,6 +1,6 @@
 {
   "name": "qm-hub-JIG-configuration-display-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jig configuration display-config module - Node-Red",
   "main": "display_config.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/modulesQuimera/qm-hub-JIG-configuration-display-config.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["quimera", "hub", "JIG"],
+  "author": "HUB-LSE",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/modulesQuimera/qm-hub-JIG-configuration-display-config/issues"
