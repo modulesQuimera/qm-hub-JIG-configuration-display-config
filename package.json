@@ -1,6 +1,6 @@
 {
   "name": "qm-hub-display-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "jig configuration display-config module - Node-Red",
   "main": "display_config.js",
   "scripts": {
