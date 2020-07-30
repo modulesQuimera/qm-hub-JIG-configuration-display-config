@@ -12,6 +12,9 @@ module.exports = function(RED) {
             var currentMode = globalContext.get("currentMode");
             var file = globalContext.get("exportFile");
 
+            var quantidade = globalContext.get("display_config") + 1;
+            globalContext.set("display_config", quantidade);
+              
             file.tester = node.tester;
             file.model = node.model;
 
